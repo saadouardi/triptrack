@@ -1,4 +1,4 @@
-# Trip Planner Application
+# TripTrack Application
 
 A comprehensive trip planning application that allows users to create, manage, and organize trips and destinations.
 
@@ -171,8 +171,8 @@ npm start
 1. **Clone the repository**
 
 \`\`\`bash
-git clone https://code.fbi.h-da.de/your-username/FWE-SS-25-123456.git
-cd FWE-SS-25-123456
+git clone git@github.com:SaadOuardi/triptrack.git
+cd triptrack
 \`\`\`
 
 2. **Create a .env file in the project root with your OpenWeatherMap API key**
