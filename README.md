@@ -132,7 +132,7 @@ Create a `.env` file in the backend directory with the following variables:
 PORT=3000
 NODE_ENV=development
 DATABASE_URL=postgres://postgres:postgres@localhost:5432/trip_planner
-WEATHER_API_KEY=your_openweathermap_api_key
+WEATHER_API_KEY=valid_api_key
 \`\`\`
 
 ### Option 1: Local Setup
@@ -140,8 +140,8 @@ WEATHER_API_KEY=your_openweathermap_api_key
 1. **Clone the repository**
 
 \`\`\`bash
-git clone https://code.fbi.h-da.de/your-username/FWE-SS-25-123456.git
-cd FWE-SS-25-123456
+git clone https://github.com/SaadOuardi/TripTrack.git
+cd TripTrack
 \`\`\`
 
 2. **Set up the backend**
@@ -171,8 +171,8 @@ npm start
 1. **Clone the repository**
 
 \`\`\`bash
-git clone git@github.com:SaadOuardi/triptrack.git
-cd triptrack
+git clone https://github.com/SaadOuardi/TripTrack.git
+cd TripTrack
 \`\`\`
 
 2. **Create a .env file in the project root with your OpenWeatherMap API key**
@@ -276,7 +276,3 @@ The Weather Integration feature enhances trip planning by providing real-time we
 - **Temperature and Conditions**: Shows temperature and weather description
 
 This feature consumes data from the OpenWeatherMap API to provide users with valuable weather information for their trip destinations, helping them better prepare for their travels.
-
----
-
-This project was developed as part of the Frontend Web Engineering course (SS 2025) at Hochschule Darmstadt.
